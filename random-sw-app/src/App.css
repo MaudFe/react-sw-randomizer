@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: yellow;
 }
 
 .App-link {
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  background-color: black;
+  color: yellow;
+  padding: 20px;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover, a:visited {
+  color: darkgoldenrod;
+}
+
+img {
+  height: 400px;
 }
